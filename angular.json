@@ -100,6 +100,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "name": "christopher-harris",
+            "email": "ccharris0607@outlook.com"
+          }
         }
       }
     }
