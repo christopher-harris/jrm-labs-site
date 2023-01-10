@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 // Custom.scss
 // Option B: Include parts of Bootstrap
 
@@ -11,6 +13,7 @@
 //@import "node_modules/bootstrap/scss/variables-dark";
 
 // 4. Include any default map overrides here
+$font-family-base: 'Inter';
 
 // 5. Include remainder of required parts
 @import "node_modules/bootstrap/scss/maps";
@@ -30,3 +33,8 @@
 @import "node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
